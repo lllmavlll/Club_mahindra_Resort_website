@@ -1,0 +1,127 @@
+#header {
+  background-image: url("../Assets/hero.jpg");
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: antiquewhite;
+  background-color: black;
+}
+header {
+  background-color: black;
+  /* margin: 20px; */
+}
+body {
+  margin: 20px;
+}
+.overlay {
+  width: auto;
+  height: 60vh;
+  background-color: black;
+  opacity: 0.5;
+}
+#div-flex {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+#div-flex > img {
+  align-items: flex-start;
+  margin: 10px;
+}
+#nav-bar {
+  align-items: flex-end;
+  display: flex;
+  margin-right: 20px;
+}
+#nav-bar > a {
+  margin: 10px;
+  padding: 10px;
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+.display-3,
+.display-4 {
+  position: relative;
+  /* color: antiquewhite; */
+  /* font-weight: bold; */
+  z-index: 4;
+  padding: 0 15px;
+}
+.section-head {
+  color: rgb(64, 134, 219);
+}
+
+.img-contain {
+  display: flex;
+  height: 40vh;
+  width: 90vw;
+  justify-content: center;
+  /* align-items: center; */
+
+  /* width: 100vw; */
+  /* grid-template-rows: 5 1fr; */
+}
+.thumbnail {
+  width: 18%;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+.thumbnail p {
+  color: antiquewhite;
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  padding: 90% 0;
+}
+.thumbnail:nth-child(1) {
+  background-image: url(../Assets/Gym\ Pool.jpg);
+}
+.thumbnail:nth-child(2) {
+  background-image: url(../Assets/Cooking\ with\ chef.jpg);
+}
+.thumbnail:nth-child(3) {
+  background-image: url(../Assets/Lazy\ River.jpg);
+}
+.thumbnail:nth-child(4) {
+  background-image: url(../Assets/Candlelight\ Dinner.jpg);
+}
+.thumbnail:nth-child(5) {
+  background-image: url(../Assets/Carnival.jpg);
+}
+.img-con > p {
+  color: antiquewhite;
+}
+section {
+  margin: 40px;
+}
+.row {
+  width: 80vw;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  column-gap: 20px;
+}
+.row p {
+  font-size: 40px;
+  color: antiquewhite;
+  text-align: center;
+}
+#div-flex1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.div-im {
+  display: flex;
+
+  align-items: center;
+}
+@media (max-width: 768px) {
+  #div-flex1 {
+    grid-template-columns: auto auto;
+  }
+}
+/* Mahesh KN */
